@@ -1,0 +1,30 @@
+{
+  "name": "hea-cli",
+  "version": "1.0.0",
+  "description": "hea-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingyangmoke/hea-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "hea": "bin/hea.js"
+  },
+  "author": "qingyangmoke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qingyangmoke/hea-cli/issues"
+  },
+  "homepage": "https://github.com/qingyangmoke/hea-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.0",
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0"
+  }
+}
